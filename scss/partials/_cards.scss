@@ -1,0 +1,48 @@
+// body.scss
+
+$primary-color: #ffffff;
+
+.body {
+  background-color: $primary-color;
+  color: rgb(43, 21, 21);
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px;
+}
+
+.card-shadow {
+  
+  box-shadow: 0px 6px 59px 15px rgba(22,70,230,0.44) inset;
+  -webkit-box-shadow: 0px 6px 59px 15px rgba(22,70,230,0.44) inset;
+  -moz-box-shadow: 0px 6px 59px 15px rgba(22,70,230,0.44) inset;
+  color: rgb(27, 52, 190);
+  padding:30px;
+}
+
+.section-html {
+  background: rgb(242,242,246);
+  background: radial-gradient(circle, rgba(242,242,246,1) 0%, rgba(198,198,255,1) 50%, rgba(255,255,255,1) 100%); 
+  color: rgb(6, 14, 61);
+  padding: 30px;
+}
+
+.card-jugador {
+  background-color: $primary-color;
+  color: rgb(43, 21, 21);
+  display: flex;
+  flex-direction: row-reverse; // Esto invierte el orden de los elementos dentro del contenedor
+  padding: 50px;
+  text-align: center;
+  font-size: 18px; // La propiedad correcta es font-size, no text-size-adjust
+}
+
+.card-jugador img {
+  
+  width: 100px; // Ajusta el tamaño del círculo según tus necesidades
+  height: 80px; // Ajusta el tamaño del círculo según tus necesidades
+  border-radius: 50%; // Establece el radio para hacer un círculo
+  overflow: hidden; // Asegura que la imagen dentro del círculo no se desborde
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
