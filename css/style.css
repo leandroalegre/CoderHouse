@@ -70,7 +70,8 @@ header h1 {
   color: aliceblue;
   background-color: rgb(21, 134, 187);
   text-align: center;
-  margin: 150px;
+  padding: 30px;
+  margin: 50px;
   margin-top: 45px;
   margin-bottom: 45px;
 }
