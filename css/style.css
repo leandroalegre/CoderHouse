@@ -1,17 +1,14 @@
-.body {
-  background-color: #ffffff;
-  color: rgb(43, 21, 21);
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 50px;
-}
-
+@charset "UTF-8";
 .card-shadow {
-  box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
-  -webkit-box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
-  -moz-box-shadow: 0px 6px 59px 15px rgba(22, 70, 230, 0.44) inset;
   color: rgb(27, 52, 190);
   padding: 30px;
+}
+
+.card-box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #c40313;
 }
 
 .section-html {
@@ -23,7 +20,7 @@
 
 .card-jugador {
   background-color: #ffffff;
-  color: rgb(43, 21, 21);
+  color: rgb(55, 69, 194);
   display: flex;
   flex-direction: row-reverse;
   padding: 50px;
@@ -63,17 +60,37 @@
 }
 
 header h1 {
-  color: aquamarine;
+  color: #ffffff;
+}
+header ul {
+  color: rgb(27, 52, 190);
+}
+header ul li {
+  color: rgb(27, 52, 190);
+}
+header section {
+  color: rgb(27, 52, 190);
 }
 
-.categorias {
-  color: aliceblue;
-  background-color: rgb(21, 134, 187);
+.class-parrafo {
   text-align: center;
-  padding: 30px;
-  margin: 50px;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  padding: auto;
+  color: principalcolor;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  margin: 30px;
+}
+
+.logo-principal {
+  text-align: center;
+  padding: auto;
+  color: red;
+  display: flex;
+}
+
+.image-container {
+  text-align: center; /* Alinea el contenido al centro horizontalmente */
+  margin-top: 20px; /* Agrega un margen superior */
 }
 
 .titulo {
@@ -110,6 +127,15 @@ header h1 {
 .container {
   text-align: right;
   margin-top: 20px;
+}
+
+.categorias {
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(27, 52, 190);
+  border-radius: 10px;
+  padding-top: 15px; /* ajusta el valor según el margen superior deseado */
+  padding-bottom: 15px; /* ajusta el valor según el margen inferior deseado */
 }
 
 /*# sourceMappingURL=style.css.map */

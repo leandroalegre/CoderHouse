@@ -1,24 +1,43 @@
 @import "partials/_cards.scss";
-@import "partials/_footer.scss";
 @import "partials/_buttons.scss";
 @import "partials/_mixin.scss";
 
 
 header{
     h1{
-        color: aquamarine;
+        color: $primary-color;
+        
+    }
+    ul{
+      color: $secondary-color;
+      li{
+        color: $secondary-color;
+      }
+    }
+    section{
+      color: $secondary-color;
     }
 }
-.categorias {
-  color: aliceblue;
-  background-color: rgb(21, 134, 187);
+
+.class-parrafo {
   text-align: center;
-  padding: 30px;
-  margin: 50px;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  padding: auto;
+  color : principalcolor;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  margin: 30px;
+}
 
+.logo-principal {
+  text-align: center;
+  padding: auto;
+  color :red;
+  display: flex;
+}
 
+.image-container {
+  text-align: center; /* Alinea el contenido al centro horizontalmente */
+  margin-top: 20px; /* Agrega un margen superior */
 }
 .titulo {
     @include fuente_titulos(50px, 'Arial, sans-serif', 'bold', hwb(231 22% 31%), left,20px);
@@ -31,6 +50,8 @@ header{
         transform: scale(1.2);
     }
 }
+
+
 
 .imagen-animada {
     width: 100%;
@@ -47,3 +68,13 @@ header{
     text-align: right;
     margin-top: 20px;
   }
+
+  .categorias {
+  color: $primary-color;
+  text-align: center;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  padding-top: 15px; /* ajusta el valor según el margen superior deseado */
+  padding-bottom: 15px; /* ajusta el valor según el margen inferior deseado */
+}
+
