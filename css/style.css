@@ -22,8 +22,6 @@
   background-color: #ffffff;
   color: rgb(55, 69, 194);
   display: flex;
-  flex-direction: row-reverse;
-  padding: 50px;
   text-align: center;
   font-size: 18px;
 }
