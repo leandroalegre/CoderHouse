@@ -17,6 +17,12 @@ header{
     section{
       color: $secondary-color;
     }
+    main{
+
+      h5{padding: 20px;}
+      
+    
+    }
 }
 
 .class-parrafo {
@@ -51,7 +57,16 @@ header{
     }
 }
 
+.parrafo{
+  text-align: justify;
+  display: flex;
+  padding: 50px 50px 50px 25px;
 
+  color :rgb(7, 7, 7);
+  padding-top: 25px; /* ajusta el valor según el margen superior deseado */
+  padding-bottom: 25px; /* ajusta el valor según el margen inferior deseado */
+
+}
 
 .imagen-animada {
     width: 100%;
@@ -77,4 +92,9 @@ header{
   padding-top: 5px; /* ajusta el valor según el margen superior deseado */
   padding-bottom: 5px; /* ajusta el valor según el margen inferior deseado */
 }
-
+.imagenrm {
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 20px; /* ajusta el valor según el margen superior deseado */
+  padding-bottom: 20px; /* ajusta el valor según el margen inferior deseado */
+}

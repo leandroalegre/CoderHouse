@@ -71,9 +71,6 @@ header ul li {
 header section {
   color: rgb(27, 52, 190);
 }
-header main h5 {
-  padding: 20px;
-}
 
 .class-parrafo {
   text-align: center;
@@ -116,15 +113,6 @@ header main h5 {
   transform: scale(1.2);
 }
 
-.parrafo {
-  text-align: justify;
-  display: flex;
-  padding: 50px 50px 50px 25px;
-  color: rgb(7, 7, 7);
-  padding-top: 25px; /* ajusta el valor según el margen superior deseado */
-  padding-bottom: 25px; /* ajusta el valor según el margen inferior deseado */
-}
-
 .imagen-animada {
   width: 100%;
   max-width: 500px;
@@ -150,11 +138,20 @@ header main h5 {
   padding-bottom: 5px; /* ajusta el valor según el margen inferior deseado */
 }
 
-.imagenrm {
+.categorias1 {
+  color: #ffffff;
   text-align: center;
+  background-color: rgb(27, 52, 190);
   border-radius: 5px;
-  padding-top: 20px; /* ajusta el valor según el margen superior deseado */
-  padding-bottom: 20px; /* ajusta el valor según el margen inferior deseado */
+  padding-top: 5px; /* ajusta el valor según el margen superior deseado */
+  padding-bottom: 5px; /* ajusta el valor según el margen inferior deseado */
 }
 
-/*# sourceMappingURL=style.css.map */
+.imagenrm {
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(27, 52, 190);
+  border-radius: 5px;
+  padding-top: 5px; /* ajusta el valor según el margen superior deseado */
+  padding-bottom: 5px; /* ajusta el valor según el margen inferior deseado */
+}/*# sourceMappingURL=style.css.map */
